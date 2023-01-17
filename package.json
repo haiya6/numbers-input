@@ -1,0 +1,21 @@
+{
+  "name": "numbers-input",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "sass": "^1.57.1",
+    "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "@vueuse/core": "^9.11.0",
+    "vue": "^3.2.45"
+  }
+}
