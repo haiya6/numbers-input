@@ -69,7 +69,7 @@ const onPaste = (idx: number, event: ClipboardEvent) => {
  */
 const onInput = (idx: number, event: InputEvent) =>  {
   // 键盘输入
-  if (event.inputType === 'insertText') {
+  if (event.inputType === 'insertText' || event.inputType === 'insertCompositionText') {
     const value = numberFilter(event.data ?? '')
     setValue(idx, value)
     if (value)
