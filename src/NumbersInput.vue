@@ -105,9 +105,8 @@ onKeyStroke('Backspace', event => {
     event.preventDefault()
     if (values.value[currentIndex.value]) {
       setValue(currentIndex.value, '')
-    } else {
-      prevInputFocus()
     }
+    prevInputFocus()
   }
 })
 </script>
